@@ -1,0 +1,77 @@
+/*  Header */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+ul {
+    margin-top: 30px;
+}
+li {
+    width: 40px;
+    height: 20px;
+    float: right;
+    list-style-type: none;
+    padding: 5px;
+
+}
+li:nth-child(2) {
+background:url(apps.jpg)no-repeat; 
+background-size: 256px;
+margin-left: 15px;
+}
+button {
+     background-color: blue;
+     color:  white;
+     border: 1px solid;
+     font-weight: bold;
+     padding: 10px 12px;
+     border-radius: 3px;
+     margin-top: 5px; 
+     cursor: pointer;
+}
+li:hover {
+    cursor: pointer;
+}
+/*  body */
+#content img{
+width: 350px;
+height: 150px;
+margin-top: 200px;
+margin-left: 250px;   
+}
+.textBox {
+    width: 550px;
+    height: 40px;
+    border: 1px solid #6c66af;
+    border-radius: 6px;
+}
+.button2{
+    color: black;
+    font-size: 11px;
+    background-color: #f5f5f5;
+    border: 1px solid #d8d8d8; 
+}
+/*Footer*/
+#footer {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f5f5f5;
+}
+.bottomleft{
+    color: #585858;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.bottomright{
+    color: #585858;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
