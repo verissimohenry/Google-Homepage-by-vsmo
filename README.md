@@ -3,8 +3,6 @@
 # Google Home Page
 
 
-![screenshot](Assets/Images/th.png)
-
 
 ## Built With
 
